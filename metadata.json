@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos4avb",
+    "Slug": "image-mol-embeddings",
+    "Status": "In progress",
+    "Title": "Molecular representation learning",
+    "Description": "Representation Learning Framework that utilizes molecule images for encoding molecular inputs as machine readable vectors for downstream tasks such as bio-activity prediction, drug metabolism analysis, or drug toxicity prediction. The approach utilizes transfer learning, that is, pre-training the model on massive unlabeled datasets to help it in generalizing feature extraction and then fine tuning on specific tasks.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,10 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Embedding"
+    ],
+    "Publication": "https://www.nature.com/articles/s42256-022-00557-6",
+    "Source Code": "https://github.com/HongxinXiang/ImageMol",
+    "License": "MIT License"
 }
