@@ -37,28 +37,29 @@ def load_model():
     cur_keys = cur_keys[:120]
 
     for ckp_key, cur_key in zip(ckp_keys, cur_keys):
-        model_sd[cur_key] = checkpoint['state_dict'][ckp_key]
+        model_sd[cur_key] = checkpoint["state_dict"][ckp_key]
 
     # Fully load the pre-trained model
     _model.load_state_dict(model_sd)
 
     model_blocks = list(_model.children())
-    model = torch.nn.Sequential(*model_blocks[:-1]) # Remove the final classifier head
+    model = torch.nn.Sequential(*model_blocks[:-1])  # Remove the final classifier head
 
     return model
+
 
 # Generate ImageMol embeddings
 def generate_embeddings(smiles):
     model = load_model()
-    
+
     embeddings = []
     img_processor = ImageData()
     for idx, smi in enumerate(smiles):
         path = f"{os.getcwd()}/{idx}.png"
         smiles_to_image(smi, savePath=path)
-        img_tensor = img_processor.get_image(path).to('cpu')
+        img_tensor = img_processor.get_image(path).to("cpu")
         with torch.no_grad():
-            embeddings.append(model(img_tensor).reshape(1, 512).tolist())
+            embeddings.append(model(img_tensor).reshape(512).tolist())
 
     return embeddings
 
@@ -75,6 +76,6 @@ outputs = generate_embeddings(smiles_list)
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["value"])  # header
+    # writer.writerow(["outcome"])  # skip writing header so it can be serialized as csv through the ersilia cli.
     for o in outputs:
-        writer.writerow([o])
+        writer.writerow(o)
