@@ -15,7 +15,7 @@ Representation Learning Framework that utilizes molecule images for encoding mol
 * Output: `Descriptor`
 * Output Type: `Float`
 * Output Shape: `Matrix`
-* Interpretation: ImageMol embeddings of shape [1, 512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.
+* Interpretation: ImageMol embeddings of shape [1512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.
 
 ## References
 
