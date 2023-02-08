@@ -76,6 +76,6 @@ outputs = generate_embeddings(smiles_list)
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    # writer.writerow(["outcome"])  # skip writing header so it can be serialized as csv through the ersilia cli.
+    writer.writerow([f"feat_{i}" for i in range(1, 513)])
     for o in outputs:
         writer.writerow(o)
