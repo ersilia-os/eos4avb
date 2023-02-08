@@ -60,6 +60,7 @@ def generate_embeddings(smiles):
         img_tensor = img_processor.get_image(path).to("cpu")
         with torch.no_grad():
             embeddings.append(model(img_tensor).reshape(512).tolist())
+        os.remove(path=path)
 
     return embeddings
 
