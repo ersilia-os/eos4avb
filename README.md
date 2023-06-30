@@ -15,13 +15,18 @@ Representation Learning Framework that utilizes molecule images for encoding mol
 * Output: `Descriptor`
 * Output Type: `Float`
 * Output Shape: `Matrix`
-* Interpretation: ImageMol embeddings of shape [1, 512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.
+* Interpretation: ImageMol embeddings of shape [1512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.
 
 ## References
 
 * [Publication](https://www.nature.com/articles/s42256-022-00557-6)
 * [Source Code](https://github.com/HongxinXiang/ImageMol)
 * Ersilia contributor: [DhanshreeA](https://github.com/DhanshreeA)
+
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos4avb)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos4avb) (AMD64)
 
 ## Citation
 
