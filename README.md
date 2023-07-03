@@ -26,7 +26,7 @@ Representation Learning Framework that utilizes molecule images for encoding mol
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos4avb)
 * [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip)
-* [DockerHub](https://hub.docker.com/r/ersiliaos/eos4avb) (AMD64)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos4avb) (AMD64, ARM64)
 
 ## Citation
 
