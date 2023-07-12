@@ -1,7 +1,7 @@
 {
     "Identifier": "eos4avb",
     "Slug": "image-mol-embeddings",
-    "Status": "In progress",
+    "Status": "Ready",
     "Title": "Molecular representation learning",
     "Description": "Representation Learning Framework that utilizes molecule images for encoding molecular inputs as machine readable vectors for downstream tasks such as bio-activity prediction, drug metabolism analysis, or drug toxicity prediction. The approach utilizes transfer learning, that is, pre-training the model on massive unlabeled datasets to help it in generalizing feature extraction and then fine tuning on specific tasks.",
     "Mode": "Pretrained",
