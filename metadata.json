@@ -37,5 +37,5 @@
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4avb",
     "Docker Architecture": [
         "AMD64"
-    ],
+    ]
 }
