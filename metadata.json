@@ -21,7 +21,7 @@
     "Output": [
         "Descriptor"
     ],
-    "Output Dimension": 1512,
+    "Output Dimension": 512,
     "Output Consistency": "Fixed",
     "Interpretation": "ImageMol embeddings of shape [1512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.",
     "Tag": [
@@ -36,11 +36,6 @@
     "Incorporation Date": "2023-01-25",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4avb",
     "Docker Architecture": [
-        "AMD64",
-        "ARM64"
+        "AMD64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip",
-    "Deployment": [
-        "Local"
-    ]
 }
