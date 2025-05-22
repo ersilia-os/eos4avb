@@ -21,9 +21,9 @@ This model was incorporated on 2023-01-25.
 - **Input Dimension:** `1`
 
 ### Output
-- **Output Dimension:** `1512`
+- **Output Dimension:** `512`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** ImageMol embeddings of shape [1512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.
+- **Interpretation:** ImageMol embeddings of shape [512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
