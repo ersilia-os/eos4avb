@@ -44,13 +44,18 @@ _10 of 512 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4avb](https://hub.docker.com/r/ersiliaos/eos4avb)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `66`
 - **Environment Size (Mb):** `1198`
+- **Image Size (Mb):** `1332.92`
 
+**Computational Performance (seconds):**
+- 10 inputs: `33.18`
+- 100 inputs: `34.56`
+- 10000 inputs: `976.85`
 
 ### References
 - **Source Code**: [https://github.com/HongxinXiang/ImageMol](https://github.com/HongxinXiang/ImageMol)
