@@ -37,15 +37,17 @@
     "License": "MIT",
     "Contributor": "DhanshreeA",
     "Incorporation Date": "2023-01-25",
+    "Last Packaging Date": "2025-10-16",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4avb",
     "Docker Architecture": "AMD64",
     "Model Size": 66.0,
     "Environment Size": 1212.0,
-    "Image Size": 1332.92,
-    "Computational Performance 1": 33.18,
-    "Computational Performance 2": 23.89,
-    "Computational Performance 3": 34.56,
-    "Computational Performance 4": 204.0,
-    "Computational Performance 5": 976.85
+    "Image Size": 1415.27,
+    "Computational Performance 1": 28.55,
+    "Computational Performance 2": 18.53,
+    "Computational Performance 3": 22.2,
+    "Computational Performance 4": 70.48,
+    "Computational Performance 5": 299.46
 }
