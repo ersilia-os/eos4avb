@@ -4,6 +4,7 @@ Representation Learning Framework that utilizes molecule images for encoding mol
 
 This model was incorporated on 2023-01-25.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos4avb`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-01-25.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Embedding`
 
 ### Input
