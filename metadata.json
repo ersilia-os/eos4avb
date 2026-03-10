@@ -43,7 +43,7 @@
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4avb",
     "Docker Architecture": "AMD64",
     "Model Size": 66.0,
-    "Environment Size": 1212.0,
+    "Environment Size": 1195.0,
     "Image Size": 1415.27,
     "Computational Performance 1": 28.55,
     "Computational Performance 2": 18.53,
