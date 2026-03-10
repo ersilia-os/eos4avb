@@ -3,6 +3,7 @@ import os
 import csv
 import sys
 
+import tempfile
 import torch
 import torchvision
 
@@ -54,14 +55,15 @@ def generate_embeddings(smiles):
 
     embeddings = []
     img_processor = ImageData()
+    tmp_dir = tempfile.mkdtemp()
     for idx, smi in enumerate(smiles):
-        path = f"{os.getcwd()}/{idx}.png"
+        path = f"{tmp_dir}/{idx}.png"
         smiles_to_image(smi, savePath=path)
         img_tensor = img_processor.get_image(path).to("cpu")
         with torch.no_grad():
             embeddings.append(model(img_tensor).reshape(512).tolist())
         os.remove(path=path)
-
+    os.rmdir(tmp_dir)
     return embeddings
 
 
