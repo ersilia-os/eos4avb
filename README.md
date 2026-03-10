@@ -2,7 +2,7 @@
 
 Representation Learning Framework that utilizes molecule images for encoding molecular inputs as machine readable vectors for downstream tasks such as bio-activity prediction, drug metabolism analysis, or drug toxicity prediction. The approach utilizes transfer learning, that is, pre-training the model on massive unlabeled datasets to help it in generalizing feature extraction and then fine tuning on specific tasks.
 
-This model was incorporated on 2023-01-25.Last packaged on 2025-10-16.
+This model was incorporated on 2023-01-25.Last packaged on 2026-03-10.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 512 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `66`
 - **Environment Size (Mb):** `1195`
-- **Image Size (Mb):** `1415.27`
+- **Image Size (Mb):** `1417.71`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.55`
-- 100 inputs: `22.2`
-- 10000 inputs: `299.46`
+- 10 inputs: `29.77`
+- 100 inputs: `23.11`
+- 10000 inputs: `287.57`
 
 ### References
 - **Source Code**: [https://github.com/HongxinXiang/ImageMol](https://github.com/HongxinXiang/ImageMol)
