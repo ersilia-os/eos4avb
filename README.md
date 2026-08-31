@@ -28,16 +28,16 @@ This model was incorporated on 2023-01-25.Last packaged on 2026-03-10.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| feat_1 | float |  | feature 1 for ImageMol |
-| feat_2 | float |  | feature 2 for ImageMol |
-| feat_3 | float |  | feature 3 for ImageMol |
-| feat_4 | float |  | feature 4 for ImageMol |
-| feat_5 | float |  | feature 5 for ImageMol |
-| feat_6 | float |  | feature 6 for ImageMol |
-| feat_7 | float |  | feature 7 for ImageMol |
-| feat_8 | float |  | feature 8 for ImageMol |
-| feat_9 | float |  | feature 9 for ImageMol |
-| feat_10 | float |  | feature 10 for ImageMol |
+| feat_000 | float |  | feature 0 for ImageMol |
+| feat_001 | float |  | feature 1 for ImageMol |
+| feat_002 | float |  | feature 2 for ImageMol |
+| feat_003 | float |  | feature 3 for ImageMol |
+| feat_004 | float |  | feature 4 for ImageMol |
+| feat_005 | float |  | feature 5 for ImageMol |
+| feat_006 | float |  | feature 6 for ImageMol |
+| feat_007 | float |  | feature 7 for ImageMol |
+| feat_008 | float |  | feature 8 for ImageMol |
+| feat_009 | float |  | feature 9 for ImageMol |
 
 _10 of 512 columns are shown_
 ### Source and Deployment

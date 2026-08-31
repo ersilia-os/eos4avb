@@ -79,6 +79,6 @@ outputs = generate_embeddings(smiles_list)
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow([f"feat_{i}" for i in range(1, 513)])
+    writer.writerow([f"feat_{i:03d}" for i in range(512)])
     for o in outputs:
         writer.writerow(o)
