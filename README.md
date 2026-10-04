@@ -1,6 +1,6 @@
 # Molecular representation learning
 
-Representation Learning Framework that utilizes molecule images for encoding molecular inputs as machine readable vectors for downstream tasks such as bio-activity prediction, drug metabolism analysis, or drug toxicity prediction. The approach utilizes transfer learning, that is, pre-training the model on massive unlabeled datasets to help it in generalizing feature extraction and then fine tuning on specific tasks.
+ImageMol turns a rendered picture of a molecule into 512 features, learning from pixels rather than from a molecular graph. Zeng and colleagues pretrained the framework on 10 million unlabelled drug-like molecules with self-supervised objectives that attend to both local substructures and overall shape, then showed the representation transfers across 51 benchmark datasets spanning metabolism, brain penetration, toxicity and target binding. Individual dimensions are not chemically interpretable and are meant to feed downstream models.
 
 This model was incorporated on 2023-01-25.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-01-25.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `512`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** ImageMol embeddings of shape [512] reshaped as a Numpy 1D array before serializing. These embeddings can be used as the input features of a fully connected classification or regression layer in a neural network.
+- **Interpretation:** 512 ImageMol features encoding molecular structure, suitable as input for downstream models.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
