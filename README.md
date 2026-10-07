@@ -1,6 +1,6 @@
 # Molecular representation learning
 
-ImageMol turns a rendered picture of a molecule into 512 features, learning from pixels rather than from a molecular graph. Zeng and colleagues pretrained the framework on 10 million unlabelled drug-like molecules with self-supervised objectives that attend to both local substructures and overall shape, then showed the representation transfers across 51 benchmark datasets spanning metabolism, brain penetration, toxicity and target binding. Individual dimensions are not chemically interpretable and are meant to feed downstream models.
+ImageMol turns a rendered picture of a molecule into 512 features, learning from pixels rather than from a molecular graph. A ResNet18 encoder was pretrained by Zeng and colleagues on ten million unlabelled drug-like PubChem molecules through five self-supervised pretext tasks covering local substructures, global shape and image rationality, and the resulting representation transferred across 51 benchmark datasets spanning metabolism, brain penetration, toxicity and target binding. Individual dimensions are not chemically interpretable and are meant to feed downstream models.
 
 This model was incorporated on 2023-01-25.Last packaged on 2026-08-31.
 
