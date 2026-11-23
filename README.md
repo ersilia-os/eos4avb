@@ -3,7 +3,7 @@
 ImageMol turns a rendered picture of a molecule into 512 features, learning from pixels rather than from a molecular graph. A ResNet18 encoder was pretrained by Zeng and colleagues on ten million unlabelled drug-like PubChem molecules through five self-supervised pretext tasks covering local substructures, global shape and image rationality, and the resulting representation transferred across 51 benchmark datasets spanning metabolism, brain penetration, toxicity and target binding. Individual dimensions are not chemically interpretable and are meant to feed downstream models.
 
 This model was incorporated on 2023-01-25.
-Last packaged on 2026-08-31.
+Last packaged on 2026-11-23.
 
 ## Information
 ### Identifiers
@@ -52,12 +52,12 @@ _10 of 512 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `126`
 - **Environment Size (Mb):** `1194`
-- **Image Size (Mb):** `1432.26`
+- **Image Size (Mb):** `444.92`
 
 **Computational Performance (seconds):**
-- 10 inputs: `24.89`
-- 100 inputs: `17.2`
-- 10000 inputs: `193.85`
+- 10 inputs: `24.76`
+- 100 inputs: `18.32`
+- 10000 inputs: `278.38`
 
 ### References
 - **Source Code**: [https://github.com/HongxinXiang/ImageMol](https://github.com/HongxinXiang/ImageMol)
