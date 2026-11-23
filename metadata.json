@@ -42,7 +42,7 @@
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4avb",
     "Docker Architecture": "AMD64",
-    "Apptainer": "https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v2.sif",
+    "Apptainer": "https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v3.sif",
     "Model Size": 126.0,
     "Environment Size": 1194.0,
     "Image Size": 444.92,
