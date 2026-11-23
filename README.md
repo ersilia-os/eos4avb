@@ -47,7 +47,7 @@ _10 of 512 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4avb](https://hub.docker.com/r/ersiliaos/eos4avb)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip)
-- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v2.sif)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v3.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v3.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `126`
